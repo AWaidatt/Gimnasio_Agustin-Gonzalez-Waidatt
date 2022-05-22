@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(226, 253, 71);
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+    
+    height: 150px;
+    margin-bottom: 0px;
+}
+
+
+
+footer section p{
+    color: black;
+}
+
+footer section{
+    display: flex;
+    flex-direction: column;
+}
+
+.instapic{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 80%;
+    right: 0px;
+    margin-top: 45px;
+}
+
+.footer__section{
+    margin-top: 20px;
+}
+
+
+.section1{
+    color: white;
+    margin: 20px;
+    background-color: black;
+    font-size: 20px;
+    padding:  30px;
+    align-content: space-between;
+   
+
+}
+
+.presentacion{
+    color: white;
+}
+
+.section1 h1{
+    text-align: center;
+    line-height: 15px;
+}
+
+.article__1{
+    display: flex;
+    width: 100%;
+    align-items: center ;
+
+}
+
+.section2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: space-evenly;
+    margin: auto;
+    font-size: 20px;
+    background-color: black;
+    line-height: 70px;
+    justify-items: center;
+}
+
+#section1__img1{
+    margin-right: 30px;
+}
+
+#section2__img2{
+    margin-left: 30px;
+    
+}
+
+#titulos2{
+    margin-bottom: 50px;
+}
+
+.section1 h1{
+    margin-bottom: 50px;
+}
+
+.section2 h1{
+    margin-bottom: 50px;
+}
+
+
+
+.article__1{
+    
+    
+    line-height: 70px;
+    display: flex;
+    
+    z-index: 9;
+}
+
+.presentacion h1{
+    text-align: center;
+}
+
+.section3{
+    display: flex;
+    background-color: rgb(226, 253, 71);
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 10px;
+    align-items: center;
+
+    
+    
+}
+
+
+
+
+body h1{
+    text-transform: uppercase;
+}
+
+.links__1{
+   
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    
+    margin-right: 30px;
+    margin-top: 50px;
+    height: 150px;
+    top: 0px;
+    z-index: 10;
+    
+    
+}
+
+
+.links__1 :hover{
+    background-image: linear-gradient(to bottom, #f5e838, #eee345, #e7dd4f, #e1d859, #dad261);
+    color: black;
+    transform: scale(1.1);
+    
+}
+
+
+/*
+header{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to bottom, #fff243ad, #d0f35d82, #eef1593f, #552d2c19, #00000000);
+    text-decoration: none;
+    z-index: 10;
+    bottom: 0px;
+}
+*/
+
+header{
+    display: grid;
+    grid-template-areas:  
+        "nav       links__1" ;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 90px;
+    
+    width: 100%;
+    height: 90px;
+}
+
+
+
+
+.links__1 {
+    grid-area: links__1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    justify-content: end;
+    height: 200px;
+
+}
+
+.links__1 a{
+    width: 15vh;
+    justify-items: stretch;
+    text-align: center;
+    padding: 10px;
+    height: 39px;
+    margin-top: 0px;
+    text-decoration: none;
+    
+
+}
+
+
+
+
+header{
+    transition: transform 1s;
+
+}
+
+
+
+
+.links__img{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    
+}
+
+.links__1 a{
+
+    margin-left: 20px;
+    
+    
+    color: white
+    
+
+}
+
+
+body{
+    background-color: black;
+    margin: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+
+.section__1{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imagenes/pesarusam2.jpg);
+    height: 100vh;
+    width: 100%;
+    top: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+
+.fondo1__slide{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color:black;
+    background-color: rgb(226, 253, 71);
+    width: 100%;
+    position: relative;
+    height: 200px;
+    margin-top: 100px;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.link__flecha{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+.section4{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+  
+}
+
+
+.fotos__actividades{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.noexiste{
+    margin-right: 20px; 
+    margin-left: 20px;
+}
+
+#sectabla{
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    justify-items: center;
+    margin-top: 200px;
+}
+
+#sectabla h1{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.horarios{
+   
+    width: 0 auto;
+    height: 150vh;
+    border: solid 1px black;
+    background-color: black;
+    
+    
+    
+    display: grid;
+    grid-template-columns: repeat(7, auto)  ;
+    grid-template-rows: repeat(15, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 100px;
+    justify-content: center;
+}
+
+#bthorario{
+    transition: 1s;
+}
+
+
+.horarios div{
+    height: 50px;
+    width: 70px;
+
+
+}
+/*
+.section3{
+    display: grid;
+    grid-template-areas: 
+        "titulos3 titulos3"
+        "nutricion kine";
+   
+    grid-template-columns: 50vh 50vh;
+    grid-template-rows: 1fr 3fr;
+    height: 65vh;
+    background-color: rgb(226, 253, 71);
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+  
+    box-shadow: 10px;   
+    
+}
+
+section#nutricion{
+    grid-area: nutricion;
+
+}
+
+h1#titulos3{
+    grid-area: titulos3;
+}
+
+section#kine{
+    grid-area: kine;
+}
+
+*/
+
+.bodyis{
+    background-image: url(../imagenes/fondois.jpg);
+    
+    
+}
+
+.datosis{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+    color: white;
+    align-items: center;
+}
+
+.datosis p{
+
+    margin-top: 130px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: white;
+    border: solid 1px yellow;
+}
+
+
+
+.bodyis{
+    height: 100vh;
+}
+
+footer{
+    margin-bottom: 0px;
+}
+
+.sectionnos{
+    color: white;
+}
+
+.articlenos{
+    color: white;
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectiongrandenos{
+    
+    justify-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
